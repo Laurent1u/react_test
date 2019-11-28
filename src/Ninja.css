@@ -3,11 +3,14 @@ body {
     justify-content: center;
     background: gray;
     transition: all 1s;
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
+    margin: auto;
 }
 
-#root {}
+.App h1, p {
+    text-align: center;
+}
 
 .ninjas form {
     background: #fff;
@@ -16,13 +19,14 @@ body {
 
 .ninja-list {
     flex-direction: row;
-    max-width: 90%;
+    width: 100%;
 }
 
 .ninja {
     width: 15vw;
     display: inline-block;
     text-align: center;
+    overflow: hidden;
 }
 
 button {
